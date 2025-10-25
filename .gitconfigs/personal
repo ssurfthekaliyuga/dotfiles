@@ -1,0 +1,7 @@
+[user]
+    name = Alexander Leonov
+    email = ssurfthekaliyuga@gmail.com
+    signingkey = B4FD385BA4F5DFA51ED4B79F077DB350062AF930
+[commit]
+    gpgsign = true
+
