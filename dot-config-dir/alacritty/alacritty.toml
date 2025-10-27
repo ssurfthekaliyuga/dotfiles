@@ -2,6 +2,10 @@
 TERM = "xterm-256color"
 
 [window]
+title = "Alacritty"
+dynamic_title = false # Remove current path above 
+position = { x = 320, y = 70 } # Center window on Windows 11 HD display
+dimensions = { columns = 100, lines = 30 } # Size
 padding.x = 15 
 padding.y = 15
 
@@ -13,3 +17,7 @@ import = [
 [font]
 normal.family = "JetBrainsMono Nerd Font"
 size = 13.0
+
+[terminal.shell]
+program = "wsl.exe" # Run WSL on start
+args = ["-d", "Ubuntu"]
