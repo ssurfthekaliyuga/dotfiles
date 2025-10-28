@@ -20,4 +20,4 @@ size = 13.0
 
 [terminal.shell]
 program = "wsl.exe" # Run WSL on start
-args = ["-d", "Ubuntu"]
+args = ["-d", "Ubuntu", "--cd", "~"]
